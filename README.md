@@ -1,6 +1,11 @@
 # WordSmith
 
-##word rhyme generator #https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi/related?hl=en-US
+##word rhyme generator 
+
+
+#To Allow ajax 
+
+##https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi/related?hl=en-US
 
 <p>Allows to you request any site with ajax from any source. Adds to response 'Allow-Control-Allow-Origin: *' header
 Developer tool.
