@@ -1,6 +1,8 @@
 // Information to reach API
 const url = 'https://api.datamuse.com/words?';
 const queryParams = 'rel_rhy=';
+//cross-origin 
+const proxy = 'https://cors-anywhere.herouapp.com/';
 // Selecting page elements
 const inputField = document.querySelector('#input');
 const submit = document.querySelector('#submit');
@@ -9,7 +11,7 @@ const responseField = document.querySelector('#responseField');
 // AJAX function
 const getSuggestions = () => {
 const wordQuery  = inputField.value;
-const endpoint = url+ "" +queryParams+ "" +wordQuery;
+const endpoint = proxy+""+url+ "" +queryParams+ "" +wordQuery;
   
   const xhr = new XMLHttpRequest();
   xhr.responseType = 'json';
