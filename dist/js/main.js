@@ -2,7 +2,7 @@
 const url = 'https://api.datamuse.com/words?';
 const queryParams = 'rel_rhy=';
 //cross-origin 
-const proxy = 'https://cors-anywhere.herouapp.com/';
+const proxy = 'https://cors-anywhere.herokuapp.com/';
 // Selecting page elements
 const inputField = document.querySelector('#input');
 const submit = document.querySelector('#submit');
